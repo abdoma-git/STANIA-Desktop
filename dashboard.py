@@ -2,7 +2,7 @@
 from tkinter import *
 from PIL import Image, ImageTk
 from ajouter_joueur import joueur
-
+from matchs import match
 
 def open_dashboard(fenetre):
 
@@ -32,7 +32,7 @@ def open_dashboard(fenetre):
     button = Button(dashboard, text="Ajouter joueur", command=joueur)
     button.grid(row=5, column=1, padx=20, pady=150)
 
-    button2 = Button(dashboard, text="Ajouter Match")
+    button2 = Button(dashboard, text="Ajouter Match", command=match)
     button2.grid(row=5, column=2, padx=20, pady=150)
 
     button3 = Button(dashboard, text="Ajouter Equipe")

@@ -2,6 +2,7 @@
 from tkinter import *
 from PIL import Image, ImageTk
 from sql import inserer_joueur
+from liste_joueurs import page_table_joueurs
 
 
 def joueur():
@@ -50,12 +51,14 @@ def joueur():
         inserer_joueur(nom, prenom, numero, pays)
 
 
-
     boutton1 = Button(equipe_fenetre, text="Submit", command=ajouter_joueur)
     boutton1.grid(row=6, column=2, padx=5, pady=5)
 
+    boutton2 = Button(equipe_fenetre, text="Liste des joueurs", command=page_table_joueurs)
+    boutton2.grid(row=7, column=2, padx=5, pady=5)
+
 
     boutton4 = Button(equipe_fenetre, text="Retour", command=exit)
-    boutton4.grid(row=8, column=3, padx=5, pady=5)
+    boutton4.grid(row=8, column=3, padx=5, pady=35)
 
     equipe_fenetre.mainloop()
