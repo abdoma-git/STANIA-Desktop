@@ -30,7 +30,7 @@ e avec Tkinter en Python</h2>
 <br>
 <img src="captures2/s3.PNG">
 <br>
-<img src="captures2/s4.PNG">
+<img src="captures2/S4.PNG">
 <br>
 <img src="captures2/s5.PNG">
 
