@@ -24,4 +24,14 @@ e avec Tkinter en Python</h2>
 
 # II - Execution de l'application Tkinter
 
+<img src="captures2/s1.PNG">
+<br>
+<img src="captures2/s2.PNG">
+<br>
+<img src="captures2/s3.PNG">
+<br>
+<img src="captures2/s4.PNG">
+<br>
+<img src="captures2/s5.PNG">
+
 
