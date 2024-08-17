@@ -1,4 +1,4 @@
-<h2 align="center">Bonjour dans mon application bureautique STANIA, dévelopé</h2>
+<h2 align="center">Bonjour, dans mon application bureautique STANIA, développée en Python, j'ai utilisé la bibliothèque Tkinter.</h2>
   
   
 # Mon Application Tkinter
